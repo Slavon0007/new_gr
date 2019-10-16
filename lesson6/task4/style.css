@@ -1,0 +1,33 @@
+.already-learned ol {
+    background-color: green;
+    color: white;
+}
+
+.already-learned li {
+    color: white;
+}
+
+.to-be-learned ol {
+    background-color: orange;
+    color: green;
+}
+
+.to-be-learned li {
+    color: white;
+}
+
+.already-learned code {
+    background-color: orange;
+}
+
+.to-be-learned code {
+    background-color: green;
+}
+
+#special2~li {
+    font-size: 24px;
+}
+
+ul li#special1+li>h4>code {
+    border: 2px solid blue;
+}
