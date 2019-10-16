@@ -1,0 +1,25 @@
+* {
+    box-sizing: content-box;
+}
+
+.a {
+    margin: 50px;
+    border: 2px solid black;
+}
+
+.bl {
+    background-color: blue;
+}
+
+.ye {
+    background-color: yellow;
+}
+
+.gr {
+    background-color: green;
+}
+
+.pn {
+    background-color: pink;
+    padding: 50px;
+}
