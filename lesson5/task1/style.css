@@ -1,0 +1,15 @@
+* {
+    background-color: green;
+}
+
+.tab {
+    font-size: 24px;
+}
+
+.org {
+    background-color: orange;
+}
+
+#best {
+    border: 2px solid red;
+}
