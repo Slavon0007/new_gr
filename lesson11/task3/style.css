@@ -5,7 +5,6 @@
     color: white;
     display: inline-block;
     padding: 0;
-    border-radius: 4px;
 }
 
 .menu-list {
@@ -21,9 +20,18 @@
 }
 
 .menu-item {
+    display: block;
+    color: black;
     padding: 16px;
 }
 
 .dropdown:hover .menu-list {
     display: block;
+}
+
+.menu-button {
+    opacity: 0.8;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
 }
