@@ -17,6 +17,7 @@
     min-width: 120px;
     box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
+    background-color: lightcyan;
 }
 
 .menu-item {
@@ -34,4 +35,6 @@
     color: white;
     padding: 16px;
     font-size: 16px;
+    border: none;
+    display: block;
 }
