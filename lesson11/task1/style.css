@@ -1,11 +1,11 @@
-.content:nth-child(1) {
+.container:nth-child(1) {
     display: none;
 }
 
-.content:nth-child(2) {
+.container:nth-child(2) {
     visibility: hidden;
 }
 
-.content:nth-child(3) {
+.container:nth-child(3) {
     visibility: visible;
 }
