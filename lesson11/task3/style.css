@@ -23,6 +23,7 @@
     display: block;
     color: black;
     padding: 16px;
+    text-decoration: none;
 }
 
 .dropdown:hover .menu-list {
