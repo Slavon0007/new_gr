@@ -9,7 +9,6 @@
 .menu-list {
     position: absolute;
     color: black;
-    list-style-type: none;
     padding: 0;
     margin: 0;
     display: none;
@@ -39,4 +38,8 @@
     display: block;
     cursor: pointer;
     background-color: darkgreen;
+}
+
+.dropdown:hover .menu-button {
+    opacity: 1;
 }
