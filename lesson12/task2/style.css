@@ -1,0 +1,18 @@
+h1 {
+    width: 50vw;
+    margin: auto;
+    font-size: 74px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-align: center;
+    text-overflow: ellipsis;
+}
+
+div {
+    height: 200px;
+    line-height: 200px;
+    background-color: coral;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
