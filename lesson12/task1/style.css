@@ -25,6 +25,7 @@ p {
 }
 
 .translation {
+    font-style: italic;
     color: gray;
 }
 
