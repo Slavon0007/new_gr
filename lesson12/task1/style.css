@@ -17,10 +17,10 @@ p {
     line-height: 28px;
 }
 
-.tehnology {
+.technology {
     letter-spacing: 3px;
     font-size: 24px;
-    opacity: 80%;
+    opacity: 0.8;
     text-decoration: underline;
 }
 
