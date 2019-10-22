@@ -5,7 +5,7 @@
 body {
     display: flex;
     background-color: bisque;
-    height: 100vh;
+    height: 100xp;
 }
 
 .page {
@@ -40,7 +40,6 @@ body {
     border-radius: 4px;
     width: 100%;
     padding: 4px;
-    outline: none;
 }
 
 .form-input:invalid {
