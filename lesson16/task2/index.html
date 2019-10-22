@@ -12,21 +12,24 @@
 <body>
     <form>
         <div class="form-control">
-            <input type="text" name="lastName" value="Emerson">
+            <label for="last-name-form-control">Last Name</label>
+            <input type="text" id="last-name-form-control" name="lastName" value="Emerson" readonly>
         </div>
         <div class="form-control">
-            <input type="number" name="age" value="17">
+            <label for="ag">Age</label>
+            <input type="number" id="ag" name="age" value="17" min="3" max="10">
         </div>
         <div class="form-control">
-            <input type="checkbox" name="agree">Accept terms and conditions
+            <input type="checkbox" id="agr" name="agree" disabled>
+            <label for="agr">Accept terms and conditions</label>
         </div>
         <div class="choose-gender">
-            <input type="radio" name="gender" checked>Male
-            <input type="radio" name="gender"> Female
-            <input type="radio" name="gender"> Secret
+            <label for="male"><input type="radio" name="gender">Male</label>
+            <label for="female"><input type="radio" name="gender" checked>Female</label>
+            <label for="secret"><input type="radio" name="gender">Secret</label>
         </div>
         <div class="form-control">
-            <textarea name="description" placeholder="Write description..."></textarea>
+            <textarea name="description" maxlength="10" placeholder="Write description..."></textarea>
         </div>
         <div class="form-control">
             <button type="submit">Submit</button>
