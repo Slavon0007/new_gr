@@ -40,11 +40,14 @@ body {
     border-radius: 4px;
     width: 100%;
     padding: 4px;
-    outline: none;
 }
 
 .form-input:invalid {
     border: 3px solid red;
+}
+
+.form-label {
+    margin-bottom: 4px;
 }
 
 .submit-button {
