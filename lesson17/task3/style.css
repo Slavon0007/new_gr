@@ -46,6 +46,6 @@ td {
 
 tbody tr:last-child td,
 tbody tr:first-child td {
-    background-color: white;
+    background-color: white !important;
     border: none;
 }
