@@ -23,7 +23,7 @@ td {
 }
 
 .odd>td:first-child {
-    background-color: white;
+    background-color: white !important;
 }
 
 .odd>td:first-child,
@@ -41,7 +41,7 @@ td {
 }
 
 .even>td:last-child {
-    background-color: white;
+    background-color: white !important;
 }
 
 tbody tr:last-child td,
