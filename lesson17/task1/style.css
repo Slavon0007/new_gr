@@ -5,6 +5,7 @@
 table {
     width: 500px;
     margin: 16px;
+    border-collapse: collapse;
     text-align: right;
 }
 
@@ -12,5 +13,4 @@ td,
 th {
     padding: 4px;
     border: 1px solid black;
-    border-collapse: collapse;
 }
