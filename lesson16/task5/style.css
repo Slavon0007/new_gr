@@ -6,11 +6,13 @@ form {
 
 input {
     margin: 16px;
+    align-self: flex-start;
 }
 
 select,
 textarea {
     margin: 16px;
+    align-self: flex-start;
 }
 
 .langua {
