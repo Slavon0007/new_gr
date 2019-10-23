@@ -4,22 +4,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" integrity="sha256-WAgYcAck1C1/zEl5sBl5cfyhxtLgKGdpI3oKyJffVRI=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 
 <body>
-    <div class="table_scroll">
+
+    <div>
         <table>
-            <caption>Shopping list</caption>
-            <tbody>
-                <thead>
+            <caption>
+                Shopping list
+            </caption>
+            <thead>
+                <tr>
                     <th>Product</th>
                     <th>Amount</th>
                     <th>Price</th>
                     <th>Subtotal</th>
-                </thead>
+                </tr>
+            </thead>
+            <tbody>
                 <tr>
                     <td>Milk</td>
                     <td>3</td>
@@ -38,11 +43,13 @@
                     <td>$10</td>
                     <td>$50</td>
                 </tr>
-                <tfoot>
+            </tbody>
+            <tfoot>
+                <tr>
                     <td colspan="3">Total</td>
                     <td>$60</td>
-                </tfoot>
-            </tbody>
+                </tr>
+            </tfoot>
         </table>
     </div>
 </body>
