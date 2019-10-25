@@ -2,13 +2,18 @@
     box-sizing: border-box;
 }
 
+.conteiner {
+    margin: 32px;
+}
+
 .rect {
     margin-bottom: 16px;
     width: 100px;
     height: 100px;
-    text-align: center;
-    background-color: coral;
+    display: flex;
+    justify-content: center;
     line-height: 100px;
+    background-color: coral;
     opacity: 0.5;
     transition: width 1s, opacity 0.5s;
 }
@@ -16,10 +21,6 @@
 .rect:hover {
     width: 100%;
     opacity: 1;
-}
-
-.conteiner {
-    margin: 32px;
 }
 
 .liner {
