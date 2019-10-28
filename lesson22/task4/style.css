@@ -3,11 +3,11 @@
 }
 
 html {
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.headeer {
+.header {
     display: flex;
     height: 3em;
     padding: 0 1em;
@@ -15,7 +15,7 @@ html {
     background-color: #eee;
 }
 
-.menu {
+.btn {
     padding-top: 0;
     padding-bottom: 0;
     font-size: 2em;
@@ -26,7 +26,7 @@ html {
 }
 
 .navigation {
-    visibility: hidden;
+    display: none;
     margin: 1.5em .5em;
     max-width: 20vw;
 }
@@ -55,11 +55,11 @@ html {
     text-overflow: ellipsis;
 }
 
-@media screen and(min-width:600px) {
-    .menu {
-        visibility: hidden;
+@media screen and (min-width: 600px) {
+    .btn {
+        display: none;
     }
     .navigation {
-        visibility: visible;
+        display: block;
     }
 }
