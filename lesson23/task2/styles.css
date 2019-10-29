@@ -13,6 +13,11 @@ body {
   display: flex;
   flex-direction: column;
 }
+@media screen and (orientation: landscape) {
+  .container {
+    flex-direction: row;
+  }
+}
 
 .square {
   width: 100px;
