@@ -22,7 +22,7 @@
   line-height: 100%;
   cursor: pointer;
 }
-.menu__active {
+.menu__item_active {
   position: relative;
   color: yellow;
 }
@@ -30,7 +30,7 @@
   color: yellow;
   background-color: #9acd32;
 }
-.menu .submenu {
+.menu__item:hover .submenu {
   display: block;
 }
 

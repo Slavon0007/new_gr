@@ -20,17 +20,17 @@
         padding: 0 8px;
         line-height: 100%;
         cursor: pointer;
-    }
-    &__active {
-        position: relative;
-        color: yellow;
+        &_active {
+            position: relative;
+            color: yellow;
+        }
     }
     &__item:hover {
         color: yellow;
         background-color: #9acd32;
-    }
-    .submenu {
-        display: block;
+        .submenu {
+            display: block;
+        }
     }
 }
 
