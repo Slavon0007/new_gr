@@ -1,0 +1,41 @@
+.block {
+    &__nav {
+        display: flex;
+        flex-grow: 1;
+        min-height: 200px;
+        background-color: #ff7f50;
+    }
+    &__list {
+        display: flex;
+        flex-grow: 1;
+        min-height: 200px;
+        background-color: #006400;
+    }
+    &__news {
+        display: flex;
+        flex-grow: 1;
+        min-height: 200px;
+        background-color: #0ff;
+    }
+    &__text {
+        margin: auto;
+        padding: 8px;
+        border-radius: 4px;
+        text-transform: lowercase;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-color: #faebd7;
+    }
+}
+
+@media screen and (min-width:600px) {
+    .block__products {
+        display: flex;
+        flex-grow: 2;
+    }
+}
+
+@media screen and (min-width:900px) {
+    .block {
+        display: flex;
+    }
+}
